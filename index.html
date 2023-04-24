@@ -1,90 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="jp">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Madoka Saito</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" concept="齋藤まどかのポートフォリオです。">
+    <title>Saito Madoka's Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">学習</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+    <header class="header">
+        <h1 class="header-logo">
+           <a href="index.html" class="header-link">
+               <img src="img/sitmdk_WHyoko.png" alt="ロゴ">
+           </a>
+        </h1>
+      
+       
+        <nav class="header-nav">
+           <ul class="header-nav-list">
+               <li class="header-nav-item">
+                   <a href="index.html" class="header-nav-link">TOP</a>
+               </li>
+               <li class="header-nav-item">
+                   <a href="index.html#vision" class="header-nav-link">VISION</a>
+               </li>
+               <li class="header-nav-item">
+                   <a href="about.html" class="header-nav-link">ABOUT</a>
+               </li>
+               <li class="header-nav-item">
+                   <a href="index.html#skills" class="header-nav-link">SKILLS</a>
+               </li>
+               <li class="header-nav-item">
+                   <a href="works.html" class="header-nav-link">WORKS</a>
+               </li>
+               <li class="header-nav-item">
+                   <a href="index.html#contact" class="header-nav-link">CONTACT</a>
+               </li>
+           </ul>
+        </nav>
+   
+        <div class="icon">
+           <ul class="icon-list">
+               <li class="icon-item">
+                   <a href="" class="icon-link">
+                       <img src="img/facebook_icon.png" alt="facebook">
+                   </a>
+               </li>
+               <li class="icon-item">
+                   <a href="" class="icon-link">
+                       <img src="img/instagram_icon.png" alt="instagram_icon">
+                   </a>
+               </li>
+           </ul>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
+      </header> 
+
+      <div class="kv __about">
+        <div class="kv-detail">
+            <h2 class="section-ttl __about">ABOUT</h2>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
+       </div>
+
+      <main>
+
+      
+        <div class="about section-inner">
+            <div class="about-detail-wrap">
+                <div class="about-detail-img-wrap">
+                    <div class="about-detail-img-box">
+                        <img src="img/profile.jpg" alt="プロフィール写真" class="about-detail-img">
+                    </div>
+                </div>
+                
+                <div class="about-detail-content">
+                    <h3 class="about-detail-name">
+                        齋藤まどか　<br>
+                        - Madoka Saito -
+                    </h3>
+                    <p class="about-detail-txt">
+                        はじめまして。齋藤まどかと申します。<br>
+                        ポートフォリオをご覧いただきありがとうございます。<br>
+                        <br>
+                        某専門学校卒業後、エンタメ業界にて１４年終業後、<br>
+                        IT業界に転職。<br>
+                        Webデザイナー・コーダーにを目指して、勉強中。<br>
+                        <br>
+                        ☆趣味☆<br>
+                        音楽鑑賞、食べ歩き、旅行
+
+                    </p>
+                </div>
+            </div>
+            
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
+
+
+        
+      </main>
+      
+      <footer class="footer">
+        <div class="footer-logo-box">
+           <img src="img/sitmdk_WHyoko.png" alt="ロゴ" class="footer-logo">
         </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+   
+        <ul class="footer-nav-list">
+           <li class="footer-nav-item">
+               <a href="index.html#vision" class="footer-nav-link">VISION</a>
+           </li>
+           <li class="footer-nav-item">
+               <a href="about.html" class="footer-nav-link">ABOUT</a>
+           </li>
+           <li class="footer-nav-item">
+               <a href="index.html#skills" class="footer-nav-link">SKILLS</a>
+           </li>
+           <li class="footer-nav-item">
+               <a href="works.html" class="footer-nav-link">WORKS</a>
+           </li>
+           <li class="footer-nav-item">
+               <a href="index.html#contact" class="footer-nav-link">CONTACT</a>
+           </li>
+        </ul>
+        <div class="icon">
+           <ul class="icon-list">
+               <li class="icon-item">
+                   <a href="" class="icon-link">
+                       <img src="img/facebook_icon.png" alt="facebook">
+                   </a>
+               </li>
+               <li class="icon-item">
+                   <a href="" class="icon-link">
+                       <img src="img/instagram_icon.png" alt="instagram_icon">
+                   </a>
+               </li>
+           </ul>
+        </div>
+        <p class="footer-copy">
+           <small>&copy; 2023 SITMDK.</small>
+        </p>
+      </footer>
 </body>
-</html>
