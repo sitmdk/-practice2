@@ -94,7 +94,11 @@ body {
 .header-logo {
     display: block;
     width: 50%;
-    max-width: 80px;
+    max-width: 160px;
+}
+
+.header-logo-img {
+    width: 200px;
 }
 
 .header-nav-list {
@@ -246,11 +250,14 @@ ul {
     background-color: rgb(194, 237, 248);
 }
 
+.__works-detail {
+    background-color: #fff;
+}
 .works-wrap {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .works-list {
@@ -303,11 +310,23 @@ ul {
     display: inline-block;
     padding: 14px 32px;
     border: 2px solid #fff;
+    background-color: #fff;
     border-radius: 28px;
     font-weight: bold;
 }
 
 /* WORKS detail */
+.works-sub-ttl {
+    color: 000;
+    background-color: rgb(194, 237, 248);
+    padding-left: 16px;
+}
+
+.sub-ttl-txt {
+    line-height: 40px;
+    font-size: 20px;
+}
+
 .works-item:nth-of-type(n + 4) {
     margin-top: 40px;
 }
@@ -395,13 +414,9 @@ ul {
     padding: 60px 0;
 }
 
-.contact-ttl {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 40px;
-    text-align: center;
+.contact-txt {
+    margin-top: 40px;
 }
-
 .contact-table {
     width: 100%;
     margin-bottom: 20px;
@@ -435,15 +450,6 @@ ul {
     max-width: 400px;
 }
 
-.contact-sex + .contact-sex {
-    margin-left: 10px;
-}
-
-.contact-sex-txt {
-    display: inline-block;
-    margin-left: 5px;
-}
-
 .form-select {
     width: 180px;
     height: 40px;
@@ -452,18 +458,6 @@ ul {
     border-radius: 5px;
 }
 
-.contact-skill {
-    display: block;
-}
-
-.contact-skill + .contact-skill {
-    margin-top: 10px;
-}
-
-.contact-skill-txt {
-    display: inline-block;
-    margin-left: 5px;
-}
 
 .form-textarea {
     width: 100%;
@@ -502,9 +496,13 @@ ul {
 }
 
 .footer-logo-box {
-    width: 160px;
-    display: inline-block;
+    width: 140px;
     margin-bottom: 40px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 160px;
 }
 
 .footer-nav-list {
@@ -558,9 +556,6 @@ ul {
     object-fit: cover;
 }
 
-.about-detail-content p {
-
+.about-detail-txt {
+    margin-top: 12px;
 }
-
-
-
